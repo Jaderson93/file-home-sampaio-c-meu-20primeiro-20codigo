@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+ char nome[10];
+ int n1, n2, n3, n4, m;
+
+ printf("Informe o nome do aluno: \n");
+ scanf("%s", &nome);
+ printf("Informe a primeira nota: \n");
+ scanf("%i",&n1);
+ print("Informe a segunda nota: \n");
+ scanf("%i", &n2);
+ printf("Informe a terceira nota: \n");
+ scanf("%i", &n3);
+ printf("Informe a quarta nota: \n");
+ scanf("%i",&n4);
+ m = (n1+n2+n3+n4)/4;
+ printf("Media: %i. \n",m);
+
+}
